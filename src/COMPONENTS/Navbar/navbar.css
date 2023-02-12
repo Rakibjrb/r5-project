@@ -1,17 +1,22 @@
 /*top navbar*/
 nav {
+  font-family: fantasy;
   background-color: #0bb530;
   height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 nav .navLink {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: fantasy, sans-serif;
   margin: 3rem;
   color: #fff;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 300;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -22,8 +27,12 @@ nav .navLink {
 
 /*bottom navbar*/
 .nav2 {
-  background-color: #39874b;
+  background-color: #3bb457c7;
   height: 70px;
+  position: sticky;
+  top: 90px;
+  left: 0;
+  z-index: 100;
 }
 .nav2 .secondNavLinks {
   width: 100%;

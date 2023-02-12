@@ -1,0 +1,53 @@
+/*Banner area css here*/
+* {
+  margin: 0;
+  padding: 0;
+}
+#banner {
+  width: 100%;
+  height: 75vh;
+  background: url("../Images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(255, 255, 16);
+  padding: 4rem;
+  /* animation: righttoleftmove infinite 2s; */
+}
+/* @keyframes righttoleftmove {
+  0% {
+    text-align: right;
+  }
+  50% {
+    text-align: center;
+  }
+  100% {
+    text-align: left;
+  }
+} */
+
+#banner .bannerdivrow {
+  display: flex;
+  justify-content: space-between;
+}
+#banner .bannerdivrow .bannerdivcol {
+  width: 18rem;
+  padding: 3rem;
+  background: #84bc83;
+  border-radius: 10px;
+  color: #fff;
+}
+#banner .bannerdivrow .bannerdivcol i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  font-size: 45px;
+}
+#banner .bannerdivrow .bannerdivcol h3 {
+  text-align: center;
+}
