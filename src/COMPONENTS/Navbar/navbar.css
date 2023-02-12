@@ -1,0 +1,43 @@
+/*top navbar*/
+nav {
+  background-color: #0bb530;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .navLink {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 3rem;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.navLink:hover {
+  color: #000;
+  border-top: 1px solid #000;
+}
+
+/*bottom navbar*/
+.nav2 {
+  background-color: #39874b;
+  height: 70px;
+}
+.nav2 .secondNavLinks {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav2 .secondNavLinks .secondNavLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.nav2 .secondNavLinks .secondNavLink:hover {
+  color: #000;
+}
