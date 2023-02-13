@@ -2,6 +2,7 @@ import React from "react";
 import { categories } from "./extraData";
 import { prices } from "./extraData";
 import ProductsCarts from "./ProductsCarts";
+import "./stock.css";
 
 const Stock = () => {
   return (
@@ -9,7 +10,7 @@ const Stock = () => {
       <section id="stock">
         <div className="leftDiv">
           <div className="categoriesDiv">
-            <h2>Select Categories</h2>
+            <h2>Categories</h2>
             {categories.map((categorie) => {
               const { id, name, checkbox } = categorie;
               return (
@@ -21,7 +22,7 @@ const Stock = () => {
             })}
           </div>
           <div className="pricesDiv">
-            <h2>Select Price Range</h2>
+            <h2>Price Range</h2>
             {prices.map((p) => {
               const { id, price, radio } = p;
               return (
@@ -33,7 +34,7 @@ const Stock = () => {
             })}
           </div>
           <div className="shippingOptionDiv">
-            <h2>Select Shipping Method</h2>
+            <h2>Shipping Method</h2>
             <div>
               <input type="radio" value="Free" />
               <label>Free</label>

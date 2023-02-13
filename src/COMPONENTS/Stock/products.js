@@ -65,4 +65,71 @@ export const products = [
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
   },
+
+  {
+    id: 7777,
+    image: "./img/product1.jpg",
+    inStock: 13,
+    sold: "1.2k",
+    price: "325$",
+    rating: "4.2/5",
+    productName: "Sony V-4 Headphone",
+    productDescription:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
+  },
+  {
+    id: 8888,
+    image: "./img/product5.jpg",
+    inStock: 15,
+    sold: "11k",
+    price: "325$",
+    rating: "4.4/5",
+    productName: "Apple smart watch",
+    productDescription:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
+  },
+  {
+    id: 9999,
+    image: "./img/product3.jpg",
+    inStock: 10,
+    sold: "12k",
+    price: "325$",
+    rating: "4.9/5",
+    productName: "Apple smart glass",
+    productDescription:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
+  },
+  {
+    id: 1010,
+    image: "./img/product1.jpg",
+    inStock: 13,
+    sold: "1.2k",
+    price: "325$",
+    rating: "4.2/5",
+    productName: "Sony V-4 Headphone",
+    productDescription:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
+  },
+  {
+    id: 1011,
+    image: "./img/product5.jpg",
+    inStock: 15,
+    sold: "11k",
+    price: "325$",
+    rating: "4.4/5",
+    productName: "Apple smart watch",
+    productDescription:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
+  },
+  {
+    id: 1012,
+    image: "./img/product3.jpg",
+    inStock: 10,
+    sold: "12k",
+    price: "325$",
+    rating: "4.9/5",
+    productName: "Apple smart glass",
+    productDescription:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
+  },
 ];

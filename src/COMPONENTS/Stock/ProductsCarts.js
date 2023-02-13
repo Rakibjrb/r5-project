@@ -1,5 +1,6 @@
 import React from "react";
 import { products } from "./products";
+import "./productsCart.css";
 
 const ProductsCarts = () => {
   return (
@@ -18,15 +19,16 @@ const ProductsCarts = () => {
         return (
           <article key={id}>
             <div className="childdiv">
-              <h5>{inStock} in stock</h5>
+              <h4>{inStock} in stock</h4>
+              <hr />
               <h5>{sold} sold</h5>
             </div>
-            <div className="parentdiv">
+            <div className="maindiv">
               <img src={image} alt="ProductPicture" />
               <h3>{productName}</h3>
               <p>{productDescription}</p>
-              <p>Price : {price}</p>
-              <p>Rating : {rating}</p>
+              <h5>Price : {price}</h5>
+              <h5>Rating : {rating}</h5>
             </div>
           </article>
         );
