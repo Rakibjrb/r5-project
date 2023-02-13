@@ -9,16 +9,16 @@ const Navbar = () => {
         <NavLink className="navLink" to="/">
           Home
         </NavLink>
-        <NavLink className="navLink" to="/">
+        <NavLink className="navLink" to="/Register">
           Register
         </NavLink>
-        <NavLink className="navLink" to="/">
+        <NavLink className="navLink" to="/Login">
           Login
         </NavLink>
-        <NavLink className="navLink" to="/">
+        <NavLink className="navLink" to="/Contact">
           Contact
         </NavLink>
-        <NavLink className="navLink" to="/">
+        <NavLink className="navLink" to="/User">
           User
         </NavLink>
       </nav>

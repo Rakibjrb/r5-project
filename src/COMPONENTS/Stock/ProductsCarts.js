@@ -26,10 +26,11 @@ const ProductsCarts = () => {
             <div className="maindiv">
               <img src={image} alt="ProductPicture" />
               <h3>{productName}</h3>
-              <p>{productDescription}</p>
+              <p>{productDescription}...</p>
               <h5>Price : {price}</h5>
               <h5>Rating : {rating}</h5>
             </div>
+            <button>Add To Cart</button>
           </article>
         );
       })}

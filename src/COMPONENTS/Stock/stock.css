@@ -25,3 +25,32 @@
   margin-left: 8px;
   font-size: 20px;
 }
+
+#stock .rightDiv .productSearch {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding: 0 4rem;
+}
+#stock .rightDiv .productSearch .shortBy label {
+  font-size: 1.5rem;
+}
+#stock .rightDiv .productSearch .shortBy select {
+  padding: 5px 20px;
+  font-size: 1.1rem;
+}
+#stock .rightDiv .productSearch .searchForm form input {
+  padding: 5px 20px;
+  font-size: 1.1rem;
+}
+#stock .rightDiv .productSearch .searchForm form button {
+  padding: 5px 30px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#stock .rightDiv .productSearch .searchForm form button:hover {
+  background: #000;
+  color: #fff;
+}

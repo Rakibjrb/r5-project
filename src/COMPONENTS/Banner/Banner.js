@@ -1,6 +1,5 @@
 import React from "react";
 import "./banner.css";
-import "../css/common.css";
 
 const bannerFeatureData = [
   {

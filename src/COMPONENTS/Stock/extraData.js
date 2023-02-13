@@ -1,5 +1,20 @@
 export const categories = [
   {
+    id: 66,
+    name: "Headphones",
+    checkbox: <input type="checkbox" value="Headphones" />,
+  },
+  {
+    id: 88,
+    name: "Smart Watch",
+    checkbox: <input type="checkbox" value="watch" />,
+  },
+  {
+    id: 99,
+    name: "Smart Glass",
+    checkbox: <input type="checkbox" value="glass" />,
+  },
+  {
     id: 11,
     name: "Mobile",
     checkbox: <input type="checkbox" value="Mobile" />,
@@ -23,11 +38,6 @@ export const categories = [
     id: 55,
     name: "Computers",
     checkbox: <input type="checkbox" value="Computers" />,
-  },
-  {
-    id: 66,
-    name: "Headphones",
-    checkbox: <input type="checkbox" value="Headphones" />,
   },
   {
     id: 77,
