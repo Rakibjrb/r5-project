@@ -27,7 +27,7 @@ const Navbar = () => {
           <NavLink className="secondNavLink" to="/">
             R5 Express
           </NavLink>
-          <NavLink className="secondNavLink" to="/">
+          <NavLink className="secondNavLink" to="/Cart">
             <i className="fa-solid fa-cart-shopping"></i> 2 Products - 140$
           </NavLink>
         </div>

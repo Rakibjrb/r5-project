@@ -10,6 +10,7 @@ import Register from "./ROUTERPAGES/Register";
 import Login from "./ROUTERPAGES/Login";
 import Contact from "./ROUTERPAGES/Contact";
 import User from "./ROUTERPAGES/User";
+import Cart from "./ROUTERPAGES/Cart";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/Login" element={<Login />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/User" element={<User />} />
+          <Route path="/Cart" element={<Cart />} />
         </Routes>
         <Footer />
       </BrowserRouter>

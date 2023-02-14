@@ -21,20 +21,22 @@ const bannerFeatureData = [
 
 const Banner = () => {
   return (
-    <section id="banner">
-      <h1>50% Sales going on</h1>
-      <div className="bannerdivrow container2">
-        {bannerFeatureData.map((feature) => {
-          const { id, icon, value } = feature;
-          return (
-            <div key={id} className="bannerdivcol">
-              {icon}
-              <h3>{value}</h3>
-            </div>
-          );
-        })}
-      </div>
-    </section>
+    <div>
+      <section id="banner">
+        <h1>50% Sales going on</h1>
+        <div className="bannerdivrow container2">
+          {bannerFeatureData.map((feature) => {
+            const { id, icon, value } = feature;
+            return (
+              <div key={id} className="bannerdivcol">
+                {icon}
+                <h3>{value}</h3>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    </div>
   );
 };
 

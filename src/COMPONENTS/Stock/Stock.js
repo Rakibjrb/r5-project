@@ -1,7 +1,7 @@
 import React from "react";
+import ProductCart from "./ProductsCarts";
 import { categories } from "./extraData";
 import { prices } from "./extraData";
-import ProductsCarts from "./ProductsCarts";
 import "./stock.css";
 
 const Stock = () => {
@@ -45,7 +45,7 @@ const Stock = () => {
             </div>
           </div>
         </div>
-        <div className="rightDiv">
+        <div className="rightDivMain">
           <div className="productSearch">
             <div className="shortBy">
               <label htmlFor="shortBy">Short By : </label>
@@ -64,8 +64,8 @@ const Stock = () => {
               </form>
             </div>
           </div>
-          <ProductsCarts />
         </div>
+        <ProductCart />
       </section>
     </>
   );
