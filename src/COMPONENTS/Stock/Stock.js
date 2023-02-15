@@ -64,8 +64,8 @@ const Stock = () => {
               </form>
             </div>
           </div>
+          <ProductCart />
         </div>
-        <ProductCart />
       </section>
     </>
   );

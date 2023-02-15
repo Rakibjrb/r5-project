@@ -4,7 +4,7 @@ import "./productsCart.css";
 
 const ProductsCarts = () => {
   return (
-    <div>
+    <div className="cartGrid">
       {products.map((p) => {
         const {
           id,
