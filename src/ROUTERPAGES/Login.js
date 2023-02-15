@@ -2,7 +2,7 @@ import React from "react";
 import { useFormik } from "formik";
 import "./ROUTEPAGESCSS/registration.css";
 
-const Login = () => {
+const Login = ({ loginSuccess }) => {
   const getItemsFromLS = () => {
     return localStorage.getItem("User")
       ? JSON.parse(localStorage.getItem("User"))
@@ -20,6 +20,7 @@ const Login = () => {
       const lsPassword = getItemsFromLS()[0].password;
       if (email === lsEmail && password === lsPassword) {
         alert("login success");
+        loginSuccess("success");
       } else {
         alert("login fail");
       }
@@ -49,6 +50,8 @@ const Login = () => {
             required
           />
           <button type="submit">Login</button>
+
+          <p>if you did'nt have any account you can't login</p>
         </form>
       </div>
     </div>

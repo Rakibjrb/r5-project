@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./ROUTERPAGES/Index";
 import "./App.css";
@@ -11,19 +11,61 @@ import Login from "./ROUTERPAGES/Login";
 import Contact from "./ROUTERPAGES/Contact";
 import User from "./ROUTERPAGES/User";
 import Cart from "./ROUTERPAGES/Cart";
+import ProtectedRouter from "./ROUTERPAGES/ProtectedRouter";
 
 const App = () => {
+  const [success, setSuccess] = useState("");
+  //const [login, setLogin] = useState(false);
+
+  const loginSuccess = (message) => {
+    setSuccess(message);
+  };
+
   return (
     <>
       <BrowserRouter>
         <Navbar />
+        {/* {login ? (
+          <button
+            onClick={() => {
+              setLogin(!login);
+            }}
+          >
+            Logout
+          </button>
+        ) : (
+          <button
+            onClick={() => {
+              setLogin(!login);
+            }}
+          >
+            Login
+          </button>
+        )} */}
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/Register" element={<Register />} />
-          <Route path="/Login" element={<Login />} />
+          <Route
+            path="/Login"
+            element={<Login loginSuccess={loginSuccess} />}
+          />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/User" element={<User />} />
-          <Route path="/Cart" element={<Cart />} />
+          <Route
+            path="/User"
+            element={
+              <ProtectedRouter login={success}>
+                <User />
+              </ProtectedRouter>
+            }
+          />
+          <Route
+            path="/Cart"
+            element={
+              <ProtectedRouter login={success}>
+                <Cart />
+              </ProtectedRouter>
+            }
+          />
         </Routes>
         <Footer />
       </BrowserRouter>
