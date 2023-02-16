@@ -3,10 +3,6 @@ import { products } from "./products";
 import "./productsCart.css";
 
 const ProductsCarts = () => {
-  const addItemToLs = (id) => {
-    console.log(id);
-  };
-
   return (
     <div className="cartGrid">
       {products.map((p) => {
@@ -36,13 +32,7 @@ const ProductsCarts = () => {
               <h5>Rating : {rating}</h5>
               <h5>Shipping : {shipping}</h5>
             </div>
-            <button
-              onClick={() => {
-                addItemToLs(id, image, productName, shipping);
-              }}
-            >
-              Add To Cart
-            </button>
+            <button>Add To Cart</button>
           </article>
         );
       })}
