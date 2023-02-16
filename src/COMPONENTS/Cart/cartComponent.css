@@ -40,6 +40,9 @@
   padding: 8px 16px;
   text-transform: uppercase;
   border: 0;
+  text-decoration: none;
+  background: #ccc;
+  color: #000;
 }
 .cart .leftDiv .ldiv1 div .shopMoreBtn:hover {
   background: #66c47c;

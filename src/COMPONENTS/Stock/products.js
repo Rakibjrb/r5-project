@@ -6,6 +6,7 @@ export const products = [
     sold: "1.2k",
     price: "325$",
     rating: "4.2/5",
+    shipping: "free",
     productName: "Sony V-4 Headphone",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -17,6 +18,7 @@ export const products = [
     sold: "11k",
     price: "325$",
     rating: "4.4/5",
+    shipping: "free",
     productName: "Apple smart watch",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -28,6 +30,7 @@ export const products = [
     sold: "12k",
     price: "325$",
     rating: "4.9/5",
+    shipping: "paid",
     productName: "Apple smart glass",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -39,6 +42,7 @@ export const products = [
     sold: "1.2k",
     price: "325$",
     rating: "4.2/5",
+    shipping: "paid",
     productName: "Sony V-4 Headphone",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -50,6 +54,7 @@ export const products = [
     sold: "11k",
     price: "325$",
     rating: "4.4/5",
+    shipping: "free",
     productName: "Apple smart watch",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -61,6 +66,7 @@ export const products = [
     sold: "12k",
     price: "325$",
     rating: "4.9/5",
+    shipping: "paid",
     productName: "Apple smart glass",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -73,6 +79,7 @@ export const products = [
     sold: "1.2k",
     price: "325$",
     rating: "4.2/5",
+    shipping: "free",
     productName: "Sony V-4 Headphone",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -84,6 +91,7 @@ export const products = [
     sold: "11k",
     price: "325$",
     rating: "4.4/5",
+    shipping: "paid",
     productName: "Apple smart watch",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -95,6 +103,7 @@ export const products = [
     sold: "12k",
     price: "325$",
     rating: "4.9/5",
+    shipping: "free",
     productName: "Apple smart glass",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -106,6 +115,7 @@ export const products = [
     sold: "1.2k",
     price: "325$",
     rating: "4.2/5",
+    shipping: "free",
     productName: "Sony V-4 Headphone",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -117,6 +127,7 @@ export const products = [
     sold: "11k",
     price: "325$",
     rating: "4.4/5",
+    shipping: "paid",
     productName: "Apple smart watch",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",
@@ -128,6 +139,7 @@ export const products = [
     sold: "12k",
     price: "325$",
     rating: "4.9/5",
+    shipping: "paid",
     productName: "Apple smart glass",
     productDescription:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem commodi.",

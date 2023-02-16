@@ -50,8 +50,6 @@ const Login = ({ loginSuccess }) => {
             required
           />
           <button type="submit">Login</button>
-
-          <p>if you did'nt have any account you can't login</p>
         </form>
       </div>
     </div>

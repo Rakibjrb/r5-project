@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import { cartdata } from "./cartData";
 import "./cartComponent.css";
 
 const CartComponent = () => {
+  const [counter, setCounter] = useState(0);
+
   return (
     <div className="cart">
       <div className="leftDiv">
@@ -16,7 +19,9 @@ const CartComponent = () => {
             <button className="delBtn">
               <i className="far fa-trash-alt fa-2x"></i>
             </button>
-            <button className="shopMoreBtn">Shop More</button>
+            <NavLink className="shopMoreBtn" to="/">
+              Shop More
+            </NavLink>
           </div>
         </div>
         {cartdata.map((cd) => {
@@ -35,12 +40,21 @@ const CartComponent = () => {
                   <i className="far fa-trash-alt fa-2x"></i>
                 </button>
                 <div className="quantity">
-                  <button>
-                    <i className="fas fa-add"></i>
-                  </button>
-                  <h5>3</h5>
-                  <button>
+                  <button
+                    onClick={() => {
+                      setCounter(counter - 1);
+                    }}
+                    disabled={counter === 0 ? true : false}
+                  >
                     <i className="fas fa-minus"></i>
+                  </button>
+                  <h5>{counter}</h5>
+                  <button
+                    onClick={() => {
+                      setCounter(counter + 1);
+                    }}
+                  >
+                    <i className="fas fa-add"></i>
                   </button>
                 </div>
               </div>

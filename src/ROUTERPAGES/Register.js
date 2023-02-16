@@ -24,12 +24,17 @@ const Register = () => {
     onSubmit: (values, { resetForm }) => {
       const { name, email, password, rtpassword } = values;
       const userId = new Date().getMilliseconds().toString();
-      setItemLocalStorage(
-        "User",
-        JSON.stringify([{ userId, name, email, password, rtpassword }])
-      );
-      resetForm({ values: "" });
-      console.log(localStorage.getItem("Password&RetypePassword"));
+      if (password === rtpassword) {
+        setItemLocalStorage(
+          "User",
+          JSON.stringify([{ userId, name, email, password, rtpassword }])
+        );
+        resetForm({ values: "" });
+        alert("User Ragistration Success.....");
+      } else {
+        alert("Something went wrong!!! fillup again");
+        resetForm({ values: "" });
+      }
     },
   });
 
