@@ -50,26 +50,26 @@ export const prices = [
   {
     id: 11,
     price: "$0-$20",
-    radio: <input type="radio" value="$0-$20" />,
+    radio: <input type="radio" value="$0-$20" name="priceRangInput" />,
   },
   {
     id: 12,
     price: "$21-$50",
-    radio: <input type="radio" value="$21-$50" />,
+    radio: <input type="radio" value="$21-$50" name="priceRangInput" />,
   },
   {
     id: 13,
     price: "$51-$100",
-    radio: <input type="radio" value="$51-$100" />,
+    radio: <input type="radio" value="$51-$100" name="priceRangInput" />,
   },
   {
     id: 14,
     price: "$101-$500",
-    radio: <input type="radio" value="$101-$500" />,
+    radio: <input type="radio" value="$101-$500" name="priceRangInput" />,
   },
   {
     id: 15,
     price: "$501+",
-    radio: <input type="radio" value="$501+" />,
+    radio: <input type="radio" value="$501+" name="priceRangInput" />,
   },
 ];
