@@ -1,6 +1,5 @@
 import React from "react";
 import { useFormik } from "formik";
-import "./ROUTEPAGESCSS/registration.css";
 
 const Login = ({ loginSuccess }) => {
   const getItemsFromLS = () => {

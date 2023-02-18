@@ -1,5 +1,4 @@
 import React from "react";
-import "./ROUTEPAGESCSS/registration.css";
 
 const Contact = () => {
   return (

@@ -3,7 +3,6 @@ import ShortCurt from "../ShortCurt/ShortCurt";
 import ProductSearch from "../ProductSearch/ProductSearch";
 import ProductsCarts from "../ProductCarts/ProductsCarts";
 import { products } from "./products";
-import "./stock.css";
 
 const Stock = () => {
   const [filterCartsD] = useState(products);

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { cartdata } from "./cartData";
-import "./cartComponent.css";
 
 const CartComponent = () => {
   const [counter, setCounter] = useState(0);

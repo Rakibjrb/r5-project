@@ -1,5 +1,4 @@
 import React from "react";
-import "./productsCart.css";
 
 const ProductsCarts = (props) => {
   const {

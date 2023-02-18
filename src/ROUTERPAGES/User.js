@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./ROUTEPAGESCSS/user.css";
 
 const User = () => {
   const [edit, setEdit] = useState("click edit button to set your message");

@@ -1,7 +1,6 @@
 import React from "react";
 import { useFormik } from "formik";
 import * as yup from "yup";
-import "./ROUTEPAGESCSS/registration.css";
 
 const Register = () => {
   const setItemLocalStorage = (key, value) => {
