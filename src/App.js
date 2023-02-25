@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./ROUTERPAGES/Index";
 import "./App.css";
-import "./app.responsive.css";
 
 //header and footer compopnents
 import Navbar from "./COMPONENTS/Navbar/Navbar";
@@ -16,7 +15,6 @@ import ProtectedRouter from "./ROUTERPAGES/ProtectedRouter";
 
 const App = () => {
   const [success, setSuccess] = useState("");
-  //const [login, setLogin] = useState(false);
 
   const loginSuccess = (message) => {
     setSuccess(message);
@@ -26,23 +24,6 @@ const App = () => {
     <>
       <BrowserRouter>
         <Navbar />
-        {/* {login ? (
-          <button
-            onClick={() => {
-              setLogin(!login);
-            }}
-          >
-            Logout
-          </button>
-        ) : (
-          <button
-            onClick={() => {
-              setLogin(!login);
-            }}
-          >
-            Login
-          </button>
-        )} */}
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/Register" element={<Register />} />
