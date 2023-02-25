@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./ROUTERPAGES/Index";
 import "./App.css";
+import "./App.responsive.css";
 
 //header and footer compopnents
 import Navbar from "./COMPONENTS/Navbar/Navbar";

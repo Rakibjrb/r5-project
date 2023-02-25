@@ -16,7 +16,6 @@ const ProductSearch = () => {
       <div className="searchForm">
         <form>
           <input type="text" placeholder="Search Product Here" required />
-          <button type="submit">Search</button>
         </form>
       </div>
     </div>

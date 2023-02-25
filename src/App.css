@@ -21,6 +21,18 @@ button {
   cursor: pointer;
 }
 
+/* for mobile btn */
+.mobileBtn {
+  position: absolute;
+  top: -55555555px;
+  right: 5px;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  background: #000;
+  color: #fff;
+}
+
 /*top navbar*/
 nav {
   font-family: fantasy;
@@ -91,7 +103,6 @@ nav .navLink {
   color: rgb(255, 255, 16);
   padding: 8rem 0;
 }
-
 #banner .bannerdivrow {
   display: flex;
   justify-content: space-between;
@@ -367,17 +378,6 @@ article button:hover {
 #stock .rightDivMain .productSearch .searchForm form input {
   padding: 5px 20px;
   font-size: 1.1rem;
-}
-#stock .rightDivMain .productSearch .searchForm form button {
-  padding: 5px 30px;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: 0.3s;
-}
-#stock .rightDivMain .productSearch .searchForm form button:hover {
-  background: #000;
-  color: #fff;
 }
 
 /* register page css here*/
